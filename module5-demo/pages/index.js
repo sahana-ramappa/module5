@@ -40,6 +40,7 @@ export async function getStaticProps(context) {
       products: data.products,
     },
     revalidate: 10,
+    
   };
 }
 
